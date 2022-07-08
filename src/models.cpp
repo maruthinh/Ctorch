@@ -20,15 +20,4 @@ torch::Tensor Net::forward(torch::Tensor x) {
   return x;
 }
 
-// explicit instantiation
 
-// auto dl =
-// torch::data::make_data_loader<torch::data::samplers::SequentialSampler>(
-// std::move(train_dataset), kTrainBatchSize);
-
-// template void train(size_t epoch, Net &model, torch::Device &device, *dl,
-// torch::optim::Optimizer &optimizer,
-// std::size_t dataset_size, std::size_t kLogInterval = 10);
-// template void
-// test<torch::data::make_data_loader>(torch::data::make_data_loader
-// &data_loader);
